@@ -6,10 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/byronwade/create-react-app-boilerplate.git"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "shelljs": "^0.7.8"
   },
   "bin": {
     "create-app": "index.js"
