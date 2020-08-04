@@ -1,6 +1,6 @@
 {
   "name": "@byronwade/create-react-app-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/byronwade/create-react-app-boilerplate.git"
+  },
+  "bin": {
+    "create-app": "index.js"
   },
   "author": "",
   "license": "ISC",
